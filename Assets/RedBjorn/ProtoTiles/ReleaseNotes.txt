@@ -1,0 +1,18 @@
+Version 1.0.3
+- Added multi-edit ability for extended version of Monobehaviour and ScriptableObject classes
+- Improved documentation (added Prefabs section and added important ExampleScript.cs note)
+- Improved MapEntity.CreateCell method (Now it can draw inner part and border part independently)
+- Changed distance methods' calculations from int values to float
+- Fixed algorithm of finding positions of walkable border
+
+Version 1.0.2
+- Added MapRules field to MapEntity class
+- Fixed Discord invite link in the documentation
+
+Version 1.0.1
+- Added map grid display at Play mode
+- Added new utility scripts
+- Fixed code style formatting
+
+Version 1.0.0
+- Initial release
