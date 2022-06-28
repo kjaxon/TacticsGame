@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace RedBjorn.ProtoTiles.Example
+namespace RedBjorn.ProtoTiles.Examples.Scripts
 {
     public class CameraController : MonoBehaviour
     {

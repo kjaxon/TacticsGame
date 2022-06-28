@@ -1,10 +1,10 @@
-﻿using RedBjorn.Utils;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using RedBjorn.Utils;
 using UnityEngine;
 
-namespace RedBjorn.ProtoTiles.Example
+namespace RedBjorn.ProtoTiles.Examples.Scripts
 {
     public class UnitMove : MonoBehaviour
     {

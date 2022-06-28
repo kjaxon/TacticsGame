@@ -1,7 +1,7 @@
- using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 
-namespace RedBjorn.ProtoTiles.Example
+namespace RedBjorn.ProtoTiles.Examples.Scripts
 {
     public class LineDrawer : MonoBehaviour
     {
