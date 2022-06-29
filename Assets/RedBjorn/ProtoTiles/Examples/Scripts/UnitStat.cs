@@ -44,7 +44,6 @@ namespace RedBjorn.ProtoTiles.Examples.Scripts
             _isDirty = true;
             return _statModifiers.Remove(mod);
         }
-     
         private float CalculateFinalValue()
         {
             float finalValue = baseValue;
@@ -65,7 +64,7 @@ namespace RedBjorn.ProtoTiles.Examples.Scripts
             }
             // Rounding gets around dumb float calculation errors (like getting 12.0001f, instead of 12f)
             // 4 significant digits is usually precise enough, but feel free to change this to fit your needs
-            return (float)Mathf.Round(finalValue);
+            return (float)Math.Round(finalValue, 4);
         }
         private int CompareModifierOrder(StatModifier a, StatModifier b)
         {
