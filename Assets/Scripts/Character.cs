@@ -19,5 +19,17 @@ public class Character : MonoBehaviour
         for(int i = 0; i < statTypes.Count; i++){
             unitStats.Add(statTypes[i], new UnitStat(statStartingValues[i]));
         }
+
+        Attack(this);
+    }
+
+    /// <summary>
+    /// Calculates result of attack on other unit
+    /// </summary>
+    /// <param name="other">other character unit</param>
+    /// <returns>A dictionary of new stats for the other unit</returns>
+    public Dictionary<UNIT_STAT_TYPE, float> Attack(Character other){
+        float newOtherHealth = other.unitStats[UNIT_STAT_TYPE.HEALTH].Value;
+        return new Dictionary<UNIT_STAT_TYPE, float>{ {UNIT_STAT_TYPE.HEALTH, newOtherHealth} };
     }
 }
