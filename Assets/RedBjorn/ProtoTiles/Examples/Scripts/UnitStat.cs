@@ -47,7 +47,6 @@ namespace RedBjorn.ProtoTiles.Examples.Scripts
         private float CalculateFinalValue()
         {
             float finalValue = baseValue;
- 
             foreach (var mod in _statModifiers)
             {
                 switch (mod.Type)

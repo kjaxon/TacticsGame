@@ -33,7 +33,6 @@ namespace RedBjorn.ProtoTiles.Examples.Scripts
             {
                 Attack.AddModifier(new StatModifier(1f, StatModType.Flat));
                 Attack.AddModifier(new StatModifier(.10f, StatModType.Percent));
-                
                 print("ATTACK: " + Attack.Value);
             }
         }
